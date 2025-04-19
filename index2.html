@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FinWise – Portfolio</title>
+  <link rel="icon" href="https://i.imgur.com/ZU0K3eX.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 px-6 py-4 flex justify-between items-center shadow-md">
+    <div class="text-2xl font-bold text-green-400">FinWise</div>
+    <ul class="flex gap-6 text-sm">
+      <li class="hover:text-green-300 cursor-pointer">Home</li>
+      <li class="hover:text-green-300 cursor-pointer">Projects</li>
+      <li class="hover:text-green-300 cursor-pointer">Skills</li>
+      <li class="hover:text-green-300 cursor-pointer">Contact</li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="text-center py-16" id="home">
+    <h1 class="text-4xl font-bold mb-4">Hi, I'm Rehan Khan 👋</h1>
+    <p class="text-lg text-gray-400 mb-6">A passionate full-stack developer creating elegant solutions with stunning UI/UX.</p>
+    <a href="#projects" class="bg-green-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-green-300 transition">View My Work</a>
+  </section>
+
+  <!-- About Me -->
+  <section class="bg-gray-800 py-16 px-8">
+    <div class="max-w-4xl mx-auto" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-6 text-center">👨‍💻 About Me</h2>
+      <p class="text-gray-300 text-lg leading-7 text-center">
+        I'm a self-driven software developer with a love for crafting sleek web applications and solving complex problems. I specialize in full-stack development using modern tools like React, Node.js, and Python. I'm always hungry to learn more and build awesome things that help people.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-16 px-8 bg-gray-900">
+    <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">🛠️ My Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-5xl mx-auto text-center">
+
+      <!-- Skill -->
+      <div class="flex flex-col items-center" data-aos="zoom-in">
+        <img src="https://img.icons8.com/color/96/000000/html-5.png" class="w-16 h-16 mb-2"/>
+        <p>HTML5</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://img.icons8.com/color/96/000000/css3.png" class="w-16 h-16 mb-2"/>
+        <p>CSS3</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://img.icons8.com/color/96/000000/javascript.png" class="w-16 h-16 mb-2"/>
+        <p>JavaScript</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://img.icons8.com/fluency/96/react.png" class="w-16 h-16 mb-2"/>
+        <p>React</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="zoom-in" data-aos-delay="400">
+        <img src="https://img.icons8.com/color/96/tailwindcss.png" class="w-16 h-16 mb-2"/>
+        <p>Tailwind CSS</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="zoom-in" data-aos-delay="500">
+        <img src="https://img.icons8.com/color/96/nodejs.png" class="w-16 h-16 mb-2"/>
+        <p>Node.js</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="zoom-in" data-aos-delay="600">
+        <img src="https://img.icons8.com/color/96/python.png" class="w-16 h-16 mb-2"/>
+        <p>Python</p>
+      </div>
+
+      <div class="flex flex-col items-center" data-aos="zoom-in" data-aos-delay="700">
+        <img src="https://img.icons8.com/ios-filled/100/firebase.png" class="w-16 h-16 mb-2"/>
+        <p>Firebase</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-8 bg-gray-800">
+    <h2 class="text-3xl font-bold text-center mb-8">✨ Featured Projects</h2>
+    <div class="swiper mySwiper max-w-4xl mx-auto">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg-gray-700 p-6 rounded-2xl">
+          <img src="https://i.imgur.com/6YVwL8F.jpg" class="rounded-xl mb-4 w-full h-60 object-cover" alt="Finance Tracker">
+          <h3 class="text-xl font-semibold">Finance Tracker</h3>
+          <p class="text-gray-300">Track your income, expenses, and budgeting smartly.</p>
+        </div>
+        <div class="swiper-slide bg-gray-700 p-6 rounded-2xl">
+          <img src="https://i.imgur.com/vfFe0Zz.jpg" class="rounded-xl mb-4 w-full h-60 object-cover" alt="Portfolio Website">
+          <h3 class="text-xl font-semibold">Portfolio Website</h3>
+          <p class="text-gray-300">A sleek and responsive portfolio built with Tailwind and React.</p>
+        </div>
+        <div class="swiper-slide bg-gray-700 p-6 rounded-2xl">
+          <img src="https://i.imgur.com/fygWhkY.jpg" class="rounded-xl mb-4 w-full h-60 object-cover" alt="E-commerce App">
+          <h3 class="text-xl font-semibold">E-commerce App</h3>
+          <p class="text-gray-300">A full-stack shopping app with payment integration.</p>
+        </div>
+      </div>
+      <div class="swiper-pagination mt-6"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-12 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">Let's Connect</h2>
+    <p class="text-gray-400 mb-4">Reach out for collaborations or just say hi 👇</p>
+    <a href="mailto:rehan@example.com" class="text-green-400 underline">rehan@example.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    &copy; 2025 Rehan Khan • Built with 💚 using Tailwind CSS + Swiper.js + AOS
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      pagination: { el: ".swiper-pagination", clickable: true },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      spaceBetween: 30,
+      grabCursor: true
+    });
+  </script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
